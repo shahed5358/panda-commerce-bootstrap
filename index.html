@@ -17,7 +17,45 @@
         header start 
     ------------------->
     <header>
+        <!------------------ 
+            nav-var start 
+        -------------------->
+        <nav class="container navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="" width="100" height="24">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <form class="d-flex pe-5">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Products</a>
+                        </li>
 
+                        <li class="nav-item">
+                            <a class="nav-link active">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!------------------
+             nav-var end 
+        ------------------->
     </header>
     <!---------------- 
         header end 
@@ -26,7 +64,54 @@
         main start  
     ------------------>
     <main>
-        <h1>I am explore Panda Commerce</h1>
+        <!---------------------- 
+            top banner start 
+        ----------------------->
+        <section class="container mt-5">
+            <div class="row">
+                <div class="col-lg-7 pt-5">
+                    <h1>Mi LED TV 4A PRO 32</h1>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                        do amet sint. Velit officia consequat duis enim velit mollit.
+                        Exercitation veniam consequat sunt nostrud amet.</p>
+                    <h3>$1289</h3>
+                    <button type="button" class="btn btn-danger">BUY NOW</button>
+                </div>
+                <div class="col-lg-5">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/banner-images/tv.png" class="img-fluid d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <!--------------- 
         main end 
